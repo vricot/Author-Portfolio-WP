@@ -6,6 +6,148 @@ Description: The official theme for Angella Ricot
 Version: 1.0
 */
 
-body {
-    background-color: pink;
+
+/* Body, HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
+
+/* Navigation */
+.logo-img {
+    max-width: 300px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+.navbar-brand a {
+    color: red;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+}
+
+/* Carousel Image */
+
+.carousel-img {
+    height: 50vh;
+    opacity: 50%;
+}
+
+/*About*/
+
+.about-section {
+    margin-top: 2rem;
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
+.about-img {
+    max-width: 80vw;
+}
+
+.about-text {
+    margin-left: 2rem;
+}
+
+/* Sections */
+
+section {
+    padding: 20px;
+}
+
+.section-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-subheading {
+    text-align: center;
+}
+
+/* Books */
+.book-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    height: fit-content;
+    background-color: white;
+}
+
+.book-img {
+    max-width: 200px;
+}
+
+/* Coming Releases */
+
+.coming-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
+}
+
+/* Blog */
+
+.blog-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
+}
+
+/* Connect */
+
+.connect-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
+}
+
+/* Media Queries */
+
+@media (min-width: 481px) {
+    .logo-img {
+        max-width: 200px;
+    }
+    .about-img {
+        margin-left: 2rem;
+        max-width: 40vw;
+    }
+}
+
+@media (min-width: 900px) {
+.carousel-img {
+    height: 90vh;
+}
+section {
+    height: 90vh;
+}
+}
+
