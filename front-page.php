@@ -7,21 +7,21 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/Sahara-Promo.jpeg" class="d-block w-100 carousel-img" alt="Sahara">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/Sahara-Promo.jpeg" class="d-block w-100 carousel-img" alt="Sahara">
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/who-killed-the-poet.jpeg" class="d-block w-100 carousel-img" alt="Angella's YouTube Channel">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/who-killed-the-poet.jpeg" class="d-block w-100 carousel-img" alt="Angella's YouTube Channel">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/YouTube-thumb.png" class="d-block w-100 carousel-img" alt="Angella Ricot">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/YouTube-thumb.png" class="d-block w-100 carousel-img" alt="Angella Ricot">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -44,7 +44,7 @@
           
               <div class="row">
                   <div class="col-md-6">
-                      <img src="img/profile.jpeg" alt="Angella Ricot" class="about-img">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/profile.jpeg" alt="Angella Ricot" class="about-img">
                   </div>
                   <div class="col-md-6">
                       <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet voluptas quidem culpa. Nesciunt sint, fuga veniam quasi aperiam necessitatibus possimus, asperiores blanditiis, ut incidunt vero deserunt natus reprehenderit ipsam.</p>
@@ -61,7 +61,7 @@
                       <div class="container">
                           <div class="row">
                               <div class="col-sm-6">
-                                  <img src="img/Sahara.png" alt="Sahara" class="book-img">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Sahara.png" alt="Sahara" class="book-img">
                               </div>
                               <div class="col-sm-6">
                                   <h4>Sahara</h4>
@@ -75,7 +75,7 @@
                       <div class="container">
                           <div class="row">
                               <div class="col-sm-6">
-                                  <img src="img/Who-Killed-The-Poet-Book.png" alt="Who Killed The Poet" class="book-img">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Who-Killed-The-Poet-Book.png" alt="Who Killed The Poet" class="book-img">
                               </div>
                               <div class="col-sm-6 mb-5">
                                   <h4>Who Killed The Poet?</h4>
@@ -84,7 +84,7 @@
                           </div>
                           <div class="row">
                               <div class="col-sm-6">
-                                  <img src="img/Mirror-of-Souls.png" alt="Mirror of Souls" class="book-img">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Mirror-of-Souls.png" alt="Mirror of Souls" class="book-img">
                               </div>
                               <div class="col-sm-6">
                                   <h4>Mirror of Souls</h4>
