@@ -1,5 +1,18 @@
 <?php get_header(); ?>
 
-<h2>Hi From Index PHP!</h2>
+<?php 
+
+    while(have_posts()) {
+        the_post();
+
+        echo "hi<br>";
+?>
+
+        <h3><?php the_title(); ?></h3>
+
+<?php
+    }
+
+?>
 
 <?php get_footer(); ?>
