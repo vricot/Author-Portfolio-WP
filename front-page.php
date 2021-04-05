@@ -106,6 +106,20 @@
             </div>
         </section>
         <section class="blog-section">
+        <?php 
+                
+                $args = array(
+                    'post_type' => 'post',
+                    'posts_per_page' => 2
+                );
+
+                $blogposts = new WP_Query($args);
+
+                while($blogposts->have_posts()) {
+                    $blogposts->the_post();
+                
+                
+                ?> 
           <!-- </div> -->
           <h3 class="mt-3 section-heading">Blog</h3>
           <!-- <div class="container"> -->
@@ -127,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-        <?php 
+        <?php }
             wp_reset_query(); 
             
         ?>
@@ -148,7 +162,7 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <div class="contact-form-container">
-                                            <!-- <?php echo do_shortcode( '[contact-form-7 id="30" title="My Contact Form"]' ); ?>  -->
+                                             <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?> 
                                         </div> 
           <!-- </div> -->
         </section>
