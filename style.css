@@ -179,9 +179,6 @@ footer {
     .book-section {
         text-align: justify;
     }
-    .logo-img {
-        max-width: 200px;
-    }
     .about-img {
         margin-left: 20%;
         margin-bottom: 20px;
@@ -210,14 +207,53 @@ footer {
 }
 
 @media (min-width: 900px) {
-.carousel-img {
-    height: 90vh;
-}
-section {
-    height: 90vh;
-}
+    .carousel {
+        max-width: 900px;
+    }
+    section {
+        max-width: 900px;
+    }
+    .book-section {
+        text-align: justify;
+    }
+    .about-img {
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        margin-left: -15%;
+    }
+    .connect-paragraph {
+        max-width: 900px;
+        text-align: justify;
+    }
+    
+    .contact-form-container input {
+        max-width: 850px;
+    }
+    
+    .contact-form-container textarea {
+        max-width: 900px;
+    }
+    .contact-form-container label {
+        margin-left: 50%;
+    }
+    .wpcf7-submit {
+        margin-left: 50%;
+    }
+    .linkedin {
+        margin-left: 25%;
+    }
+    .new-row {
+        margin-top: 0rem;
+    }
 }
 
 @media (min-width: 1024px) {
-
+    .carousel {
+        max-width: 1000px;
+    }
+    section {
+        max-width: 1000px;
+    }
 }

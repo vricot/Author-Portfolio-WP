@@ -62,7 +62,7 @@
           <h3 class="section-heading">Books</h3>
           <!-- <div class="container"> -->
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                       <h3 class="section-subheading mb-3">Novels</h3>
                       <div class="container">
                           <div class="row">
@@ -76,7 +76,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                       <h3 class="section-subheading mb-3 poetry-heading">Poetry</h3>
                       <div class="container">
                           <div class="row mb-5">
