@@ -1,5 +1,5 @@
 <footer>
-    <p>Footer Here</p>
+    <p>&copy; Valerie Ricot 2021</p>
 </footer>
 
 <?php wp_footer(); ?>
