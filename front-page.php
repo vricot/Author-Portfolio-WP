@@ -67,11 +67,11 @@
                       <div class="container">
                           <div class="row">
                               <div class="col-sm-6">
-                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Sahara.png" alt="Sahara" class="book-img">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Sahara.png" alt="Sahara" class="book-img sahara-book-img">
                               </div>
                               <div class="col-sm-6">
                                   <h4 class="book-title">Sahara</h4>
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
                               </div>
                           </div>
                       </div>
@@ -81,11 +81,11 @@
                       <div class="container">
                           <div class="row mb-5">
                               <div class="col-sm-6">
-                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Who-Killed-The-Poet-Book.png" alt="Who Killed The Poet" class="book-img">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/Who-Killed-The-Poet-Book.png" alt="Who Killed The Poet" class="book-img new-col-book-img">
                               </div>
                               <div class="col-sm-6 mb-5">
                                   <h4 class="book-title">Who Killed The Poet?</h4>
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
                               </div>
                           </div>
                           <div class="row new-row">
@@ -94,7 +94,7 @@
                               </div>
                               <div class="col-sm-6">
                                   <h4 class="book-title">Mirror of Souls</h4>
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
                               </div>
                           </div>
                       </div>

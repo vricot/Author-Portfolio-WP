@@ -256,4 +256,52 @@ footer {
     section {
         max-width: 1000px;
     }
+    .about-img {
+        max-width: 400px;
+    }
+    .about-text {
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+    .book-title {
+       padding-left: 1rem;
+    }
+    .book-description {
+        text-align: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .new-row {
+        margin-top: -5rem;
+    }
+    .new-col-book-img {
+        margin-top: 1.75rem;
+    }
+    .sahara-book-img {
+        margin-top: 1rem;
+    }
+    .connect-paragraph {
+        max-width: 1000px;
+        text-align: justify;
+    }
+    
+    .contact-form-container input {
+        width: 600px;
+    }
+    
+    .contact-form-container textarea {
+        width: 600px;
+    }
+    .contact-form-container label {
+        margin-left: -10%;
+    }
+    .wpcf7-submit {
+        margin-left: -10%;
+    }
+    .linkedin {
+        margin-left: -5%;
+    }
+    .book-img {
+        margin-top: 1rem;
+    }
 }
