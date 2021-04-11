@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container mt-3">
+<a name="home"><div class="container mt-3">
   <div class="row">
     <div class="col-12">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -43,7 +43,7 @@
       <div class="container">
     </div>
   </div>
-</div>
+</div></a>
 
         <section class="about-section">
           <a name="about"><h3 class="section-heading">About</h3></a>
@@ -176,8 +176,9 @@
                         <div class="containter-fluid">
                             <div class="col-lg-8 offset-lg-2">
                             <div class="container-fluid mb-3 icons">
-                             <a href="#" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i> Instagram</a> 
-                            <a href="#" target="_blank"><i class="fa fa-linkedin linkedin" id="linkedin"></i> LinkedIn</a>
+                             <a href="https://www.instagram.com/angellaricot/" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i>Instagram</a> 
+                            <a href="https://www.linkedin.com/in/author-angella-ricot-a0344592/" target="_blank"><i class="fa fa-linkedin linkedin" id="linkedin"></i> LinkedIn</a>
+                            <a href="https://www.amazon.com/Angella-Ricot/e/B00JQ3I87E?ref=sr_ntt_srch_lnk_2&qid=1618106345&sr=8-2" target="_blank"><i class="fab fa-amazon linkedin" id="linkedin"></i> Amazon</a>
                         </div>
                             <div class="row">
                                 <div class="col-md-6">

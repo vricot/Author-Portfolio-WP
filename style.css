@@ -190,11 +190,19 @@ a {
     color: rgb(163, 1, 1);
 }
 
+/* Shop */
+
+.shop-title {
+    color: rgba(255, 255, 255, 0.945);
+    padding: 100px 0;
+}
+
 /* Footer */
 
 footer {
   margin-left: 5%;
   color: rgba(255, 255, 255, 0.801);
+  padding-top: 1.5rem;
 }
 
 /* Media Queries */
