@@ -6,302 +6,426 @@ Description: The official theme for Angella Ricot
 Version: 1.0
 */
 
-
 /* Body, HTML */
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    overflow-x: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Navigation */
 
 nav {
-    max-width: 100vw;
+  max-width: 100vw;
 }
 
 .navbar-brand {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .navbar-brand a {
-    color: red;
+  color: red;
 }
 
 .nav-link {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .navbar {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .navbar a {
-    color: white;
+  color: white;
 }
 
 /* Body */
 
 body {
-    background-color: rgb(104, 1, 1);
+  background-color: rgb(104, 1, 1);
 }
 
 /* Carousel */
 
 .carousel-img {
-    height: 50vh;
+  height: 50vh;
 }
 
 .carousel {
-    max-width: 320px;
+  max-width: 320px;
+}
+
+.carousel-caption {
+    text-shadow: -1px -1px 0 rgb(136, 0, 0), 1px -1px 0 rgb(117, 0, 0), -1px 1px 0 rgb(114, 0, 0), 1px 1px 0 rgb(99, 0, 0);
+    font-style: italic;
 }
 
 /*About*/
 
 .about-section {
-    margin-top: 2rem;
-    padding: 20px;
-    margin-bottom: 2rem;
-    text-align: justify;
+  margin-top: 2rem;
+  padding: 20px;
+  margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .about-img {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 /* Sections */
 
 section {
-    background-color: rgba(255, 255, 255, 0.945);
-    border-radius: 1%;
-    height: fit-content;
-    padding: 20px;
-    max-width: 320px;
+  background-color: rgba(255, 255, 255, 0.945);
+  border-radius: 1%;
+  height: fit-content;
+  padding: 20px;
+  max-width: 320px;
 }
 
 .section-heading {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .section-subheading {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.25rem;
-    color: rgb(75, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  color: rgb(75, 0, 0);
 }
 
 /* Books */
 .book-section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
 }
 
 .book-img {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .book-title {
-    margin-top: 10px;
-    font-style: italic;
+  margin-top: 10px;
+  font-style: italic;
 }
 
 .new-row {
-    margin-top: -5rem;
+  margin-top: -5rem;
+}
+
+.btn-primary a {
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-primary a:hover {
+    cursor: pointer;
 }
 
 /* Coming Releases */
 
 .coming-section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
 }
 
 /* Blog */
 
 .blog-section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
 }
 
 .btn-primary {
-    background-color: rgb(116, 0, 0);
-    border: none;
+  background-color: rgb(116, 0, 0);
+  border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(138, 2, 2);
 }
 
 .all-blogs-link {
-    color: rgb(116, 0, 0);
+  color: rgb(163, 1, 1);
 }
 
 /* Connect */
 
 .connect-section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
 }
 
 .connect-paragraph {
-    max-width: 250px;
-    text-align: justify;
+  max-width: 250px;
+  text-align: justify;
 }
 
 .contact-form-container input {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 .contact-form-container textarea {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 /* Footer */
 
 footer {
-    margin-left: 5%;
-    color: rgba(255, 255, 255, 0.801);
+  margin-left: 5%;
+  color: rgba(255, 255, 255, 0.801);
 }
 
 /* Media Queries */
 
 @media (min-width: 481px) {
+  .carousel {
+    max-width: 480px;
+  }
+  section {
+    max-width: 480px;
+  }
+  .book-section {
+    text-align: justify;
+  }
+  .about-img {
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+  .connect-paragraph {
+    max-width: 480px;
+    text-align: justify;
+  }
+
+  .contact-form-container input {
+    max-width: 450px;
+  }
+
+  .contact-form-container textarea {
+    max-width: 480px;
+  }
+  .contact-form-container label {
+    margin-left: 10%;
+  }
+  .wpcf7-submit {
+    margin-left: 10%;
+  }
+  .linkedin {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 721px) {
     .carousel {
-        max-width: 480px;
-    }
-    section {
-        max-width: 480px;
-    }
-    .book-section {
+        max-width: 720px;
+      }
+      section {
+        max-width: 720px;
+      }
+      .book-section {
         text-align: justify;
-    }
-    .about-img {
-        margin-left: 20%;
+      }
+      .about-img {
+        margin-left: 10%;
         margin-bottom: 20px;
-    }
-    .connect-paragraph {
+      }
+      .about-text {
+          margin-left: -1rem;
+      }
+      .connect-paragraph {
         max-width: 480px;
         text-align: justify;
-    }
+      }
     
-    .contact-form-container input {
+      .contact-form-container input {
         max-width: 450px;
-    }
+      }
     
-    .contact-form-container textarea {
+      .contact-form-container textarea {
         max-width: 480px;
-    }
-    .contact-form-container label {
+      }
+      .contact-form-container label {
         margin-left: 10%;
-    }
-    .wpcf7-submit {
+      }
+      .wpcf7-submit {
         margin-left: 10%;
-    }
-    .linkedin {
+      }
+      .linkedin {
         margin-left: 10%;
-    }
+      }
 }
 
 @media (min-width: 900px) {
-    .carousel {
-        max-width: 900px;
-    }
-    section {
-        max-width: 900px;
-    }
-    .book-section {
-        text-align: justify;
-    }
-    .about-img {
-        margin-left: 5%;
-        margin-bottom: 20px;
-    }
-    .about-text {
-        margin-left: -15%;
-    }
-    .connect-paragraph {
-        max-width: 900px;
-        text-align: justify;
-    }
-    
-    .contact-form-container input {
-        max-width: 850px;
-    }
-    
-    .contact-form-container textarea {
-        max-width: 900px;
-    }
-    .contact-form-container label {
-        margin-left: 50%;
-    }
-    .wpcf7-submit {
-        margin-left: 50%;
-    }
-    .linkedin {
-        margin-left: 25%;
-    }
-    .new-row {
-        margin-top: 0rem;
-    }
+  .carousel {
+    max-width: 900px;
+  }
+  section {
+    max-width: 900px;
+  }
+  .book-section {
+    text-align: justify;
+  }
+  .about-img {
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    margin-left: -15%;
+  }
+  .connect-paragraph {
+    max-width: 900px;
+    text-align: justify;
+  }
+
+  .contact-form-container input {
+    max-width: 850px;
+  }
+
+  .contact-form-container textarea {
+    max-width: 900px;
+  }
+  .contact-form-container label {
+    margin-left: 50%;
+  }
+  .wpcf7-submit {
+    margin-left: 50%;
+  }
+  .linkedin {
+    margin-left: 25%;
+  }
+  .new-row {
+    margin-top: 0rem;
+  }
 }
 
 @media (min-width: 1024px) {
+  .carousel {
+    max-width: 1000px;
+  }
+  section {
+    max-width: 1000px;
+  }
+  .about-img {
+    max-width: 400px;
+  }
+  .about-text {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+  .book-title {
+    padding-left: 1rem;
+  }
+  .book-description {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .new-row {
+    margin-top: -5rem;
+  }
+  .new-col-book-img {
+    margin-top: 1.75rem;
+  }
+  .sahara-book-img {
+    margin-top: 1rem;
+  }
+  .connect-paragraph {
+    max-width: 1000px;
+    text-align: justify;
+  }
+
+  .contact-form-container input {
+    width: 600px;
+  }
+
+  .contact-form-container textarea {
+    width: 600px;
+  }
+  .contact-form-container label {
+    margin-left: -10%;
+  }
+  .wpcf7-submit {
+    margin-left: -10%;
+  }
+  .linkedin {
+    margin-left: -5%;
+  }
+  .book-img {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1281px) {
+  .carousel {
+    max-width: 1200px;
+    height: 60vh;
+  }
+  .carousel-img {
+      height: 60vh;
+  }
+  section {
+    max-width: 1200px;
+  }
+  .about-img {
+    max-width: 500px;
+  }
+  .about-text {
+    padding-left: 6rem;
+    padding-right: 2rem;
+  }
+  .book-description {
+    text-align: left;
+    padding-right: 1rem;
+  }
+  .new-row {
+    margin-top: -5rem;
+  }
+  .new-col-book-img {
+    margin-top: 1.75rem;
+  }
+  .sahara-book-img {
+    margin-top: 1rem;
+  }
+  .connect-paragraph {
+    max-width: 1000px;
+    text-align: justify;
+  }
+
+  .contact-form-container input {
+    width: 600px;
+  }
+
+  .contact-form-container textarea {
+    width: 600px;
+  }
+  .contact-form-container label {
+    margin-left: 5%;
+  }
+  .wpcf7-submit {
+    margin-left: 5%;
+  }
+  .linkedin {
+    margin-left: 0%;
+  }
+  .book-img {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
     .carousel {
-        max-width: 1000px;
+        max-width: 1300px;
     }
     section {
-        max-width: 1000px;
-    }
-    .about-img {
-        max-width: 400px;
-    }
-    .about-text {
-        padding-left: 3rem;
-        padding-right: 2rem;
-    }
-    .book-title {
-       padding-left: 1rem;
-    }
-    .book-description {
-        text-align: left;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .new-row {
-        margin-top: -5rem;
-    }
-    .new-col-book-img {
-        margin-top: 1.75rem;
-    }
-    .sahara-book-img {
-        margin-top: 1rem;
-    }
-    .connect-paragraph {
-        max-width: 1000px;
-        text-align: justify;
-    }
-    
-    .contact-form-container input {
-        width: 600px;
-    }
-    
-    .contact-form-container textarea {
-        width: 600px;
-    }
-    .contact-form-container label {
-        margin-left: -10%;
-    }
-    .wpcf7-submit {
-        margin-left: -10%;
-    }
-    .linkedin {
-        margin-left: -5%;
-    }
-    .book-img {
-        margin-top: 1rem;
+        max-width: 1300px;
     }
 }

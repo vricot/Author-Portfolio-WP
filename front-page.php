@@ -13,21 +13,21 @@
               <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Sahara-Promo.jpeg" class="d-block w-100 carousel-img" alt="Sahara">
               <div class="carousel-caption d-none d-md-block"></a>
                 <h5>SAHARA</h5>
-                <p>New Global Edition of Sahara Out Now On Amazon!</p>
+                <p>New Global Edition of Sahara Out Now On Amazon</p>
               </div>
             </div>
             <div class="carousel-item">
               <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/who-killed-the-poet.jpeg" class="d-block w-100 carousel-img" alt="Who Killed The Poet">
               <div class="carousel-caption d-none d-md-block"></a>
                 <h5>WHO KILLED THE POET</h5>
-                <p>Check Out My Latest Poetry Collection, Now On Amazon!</p>
+                <p>Check Out My Latest Poetry Collection, Now On Amazon</p>
               </div>
             </div>
             <div class="carousel-item">
               <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/YouTube-thumb.png" class="d-block w-100 carousel-img" alt="Angella's Book Hotspot"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>ANGELLA'S BOOK HOTSPOT</h5>
-                <p>Check Out My YouTube Channel!</p>
+                <p>Check Out My YouTube Channel</p>
               </div>
             </div>
           </div>
@@ -47,19 +47,21 @@
 
         <section class="about-section">
           <h3 class="section-heading">About</h3>
-          
+          <h4 class="section-subheading">Learn More About Me</h4>
               <div class="row">
                   <div class="col-md-6">
                       <img src="<?php echo get_template_directory_uri(); ?>/img/profile.jpeg" alt="Angella Ricot" class="about-img">
                   </div>
                   <div class="col-md-6">
-                      <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni amet voluptas quidem culpa. Nesciunt sint, fuga veniam quasi aperiam necessitatibus possimus, asperiores blanditiis, ut incidunt vero deserunt natus reprehenderit ipsam.</p>
+                      <p class="about-text">I am a native of Haiti who discovered my passion for writing at the University of South Florida. A literary award-winning author, I was featured both in the <i>Miami Times</i> and <i>New York City Caribbean Life</i> newspapers for my achievements. I currently reside in New York City where I play an active role as a women’s rights activist.
+</p>
                   </div>
               </div>
           </section>
 
           <section class="book-section">
           <h3 class="section-heading">Books</h3>
+          <h4 class="section-subheading">Choose from my collection of poetry and prose</h4>
           <!-- <div class="container"> -->
               <div class="row">
                   <div class="col-lg-6">
@@ -71,7 +73,10 @@
                               </div>
                               <div class="col-sm-6">
                                   <h4 class="book-title">Sahara</h4>
-                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description">A story of lust, greed, politics that spans through the age of the Clinton’s presidency and al-Qaeda, the plot spins to a volatile climax that sets the stage for the ultimate scandal in the White House.</p>
+                                  <div class="btn btn-primary">
+                                    <a href="#">Buy Now On Amazon</a>
+                                  </div>
                               </div>
                           </div>
                       </div>
@@ -85,7 +90,10 @@
                               </div>
                               <div class="col-sm-6 mb-5">
                                   <h4 class="book-title">Who Killed The Poet?</h4>
-                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description">The poet becomes the witness of his own funeral. He is a revenant traveling from another world. The only mortals that seem to embrace him with a peculiar affection are the village clairvoyants. I compel you to engage in the ultimate quest to find the culprits responsible for the poet’s demise.</p>
+                                  <div class="btn btn-primary">
+                                    <a href="#">Buy Now On Amazon</a>
+                                  </div>
                               </div>
                           </div>
                           <div class="row new-row">
@@ -94,7 +102,10 @@
                               </div>
                               <div class="col-sm-6">
                                   <h4 class="book-title">Mirror of Souls</h4>
-                                  <p class="book-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas omnis et excepturi ipsum quaerat, asperiores maxime corporis quam earum perferendis facere modi ab possimus ad! Quisquam numquam deserunt sequi.</p>
+                                  <p class="book-description"> Throughout "Mirror of Souls", the theme is a quest for truth, a quest for freedom: freedom from our daily anguish, freedom from miseries, and from madness. Most importantly, I also offer insight on the role of the poet today and how the poet is viewed within society.</p>
+                                  <div class="btn btn-primary">
+                                    <a href="#">Buy Now On Amazon</a>
+                                  </div>
                               </div>
                           </div>
                       </div>
@@ -107,13 +118,14 @@
           <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-12">
-                    <h4 class="section-subheading">Come Back Soon!</h4>
+                    <h4 class="section-subheading">Come Back Soon</h4>
                 </div>
             </div>
         </section>
         <section class="blog-section">
         <!-- </div> -->
             <h3 class="section-heading">Blog</h3>
+            <h4 class="section-subheading">Check out my latest blog posts</h4>
           <!-- <div class="container"> -->
         <?php 
                 
