@@ -6,6 +6,8 @@ Description: The official theme for Angella Ricot
 Version: 1.0
 */
 
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 /* Body, HTML */
 html,
 body {
@@ -177,6 +179,15 @@ section {
 
 .contact-form-container textarea {
   max-width: 250px;
+}
+
+.linkedin {
+    color: rgb(163, 1, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 1, 1);
 }
 
 /* Footer */
@@ -428,4 +439,26 @@ footer {
     section {
         max-width: 1300px;
     }
+    .connect-paragraph {
+        margin-left: 10.5%;
+    }
+    .contact-form-container input {
+        width: 600px;
+    }
+    
+      .contact-form-container textarea {
+        width: 600px;
+      }
+      .contact-form-container label {
+        margin-left: 30%;
+      }
+      .wpcf7-submit {
+        margin-left: 30%;
+      }
+      .instagram {
+        margin-left: 15%;
+      }
+      .linkedin {
+        margin-left: 5%;
+      }
 }

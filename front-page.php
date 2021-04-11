@@ -46,7 +46,7 @@
 </div>
 
         <section class="about-section">
-          <h3 class="section-heading">About</h3>
+          <a name="about"><h3 class="section-heading">About</h3></a>
           <h4 class="section-subheading">Learn More About Me</h4>
               <div class="row">
                   <div class="col-md-6">
@@ -60,7 +60,7 @@
           </section>
 
           <section class="book-section">
-          <h3 class="section-heading">Books</h3>
+          <a name="books"><h3 class="section-heading">Books</h3></a>
           <h4 class="section-subheading">Choose from my collection of poetry and prose</h4>
           <!-- <div class="container"> -->
               <div class="row">
@@ -114,7 +114,7 @@
         <!-- </div> -->
         </section>
         <section class="coming-section">
-          <h3 class="mt-3 section-heading">Upcoming Releases</h3>
+          <a name="coming"><h3 class="mt-3 section-heading">Upcoming Releases</h3></a>
           <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-12">
@@ -124,7 +124,7 @@
         </section>
         <section class="blog-section">
         <!-- </div> -->
-            <h3 class="section-heading">Blog</h3>
+            <a name="blog"><h3 class="section-heading">Blog</h3></a>
             <h4 class="section-subheading">Check out my latest blog posts</h4>
           <!-- <div class="container"> -->
         <?php 
@@ -169,14 +169,14 @@
           </div>
         </section>
         <section class="connect-section">
-          <h2 class="section-heading">connect</h2>
+          <a name="connect"><h2 class="section-heading">connect</h2></a>
           <div class="connect-paragraph">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores qui distinctio ducimus nesciunt voluptas ipsam magni non ipsum voluptate tempore et aperiam veritatis quas quibusdam quae consequuntur doloribus, at eos.</p>
+            <h4 class="section-subheading">Connect With Me Via Socials Or Send Me A Message</h4>
           </div>
                         <div class="containter-fluid">
                             <div class="col-lg-8 offset-lg-2">
                             <div class="container-fluid mb-3 icons">
-                            <!-- <a href="#" class="font-awesome" id="github" target="_blank"><i class="fa fa-github"></i> GitHub</a> -->
+                             <a href="#" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i> Instagram</a> 
                             <a href="#" target="_blank"><i class="fa fa-linkedin linkedin" id="linkedin"></i> LinkedIn</a>
                         </div>
                             <div class="row">
