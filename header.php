@@ -17,12 +17,12 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#books">Books</a>
-                <a class="nav-link" href="#coming">Coming Releases</a>
-                <a class="nav-link" href="#shop">Shop</a>
-                <a class="nav-link" href="#blog">Blog</a>
-                <a class="nav-link" href="#connect">Connect</a>
+                <a class="nav-link" href="<?php echo site_url('#about'); ?>">About</a>
+                <a class="nav-link" href="<?php echo site_url('/#books'); ?>">Books</a>
+                <a class="nav-link" href="<?php echo site_url('/#coming'); ?>">Coming Releases</a>
+                <a class="nav-link" href="<?php echo site_url('/shop'); ?>">Shop</a>
+                <a class="nav-link" href="<?php echo site_url('/blog'); ?>">Blog</a>
+                <a class="nav-link" href="<?php echo site_url('/#connect'); ?>">Connect</a>
               </div>
             </div>
           </div>

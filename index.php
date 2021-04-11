@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<section class="blog">
-                    <h2 class="display-6 mb-5">All Blog Posts:</h2>
+<section class="blog blog-index">
+                    <h2 class="display-6 mb-5 section-heading">All Blog Posts:</h2>
                 <?php 
 
                 while(have_posts()) {
@@ -8,7 +8,7 @@
                 
                 
                 ?>
-                            <div class="container-fluid">
+                            <div class="container-fluid blog-index-container">
                                 <div class="row">
                                     <div class="col-lg-8 offset-lg-2">
                                         <div class="card mb-3">

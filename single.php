@@ -4,10 +4,10 @@
 while(have_posts()) {
     the_post();
 ?>
-<div class="container">
+<div class="container outer-post-container">
     <div class="row">
     <div class="col-lg-10 offset-lg-1">
-        <div class="card m-5">
+        <div class="card m-5 post-card">
             <img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" class="card-img-top" alt="...">
             <div class="card-body post-container">
                 <h5 class="card-title"><?php the_title(); ?></h5>

@@ -160,6 +160,22 @@ section {
   color: rgb(163, 1, 1);
 }
 
+.blog-index {
+  max-width: 275px;
+  margin-left: 7.5%;
+  margin-top: 1rem;
+}
+
+.post-card {
+  width: 300px;
+  position: relative;
+  left: -17%;
+}
+
+textarea#comment {
+  width: 100%;
+}
+
 /* Connect */
 
 .connect-section {
@@ -199,10 +215,14 @@ a {
 
 /* Footer */
 
-footer {
+.footer-div {
   margin-left: 5%;
   color: rgba(255, 255, 255, 0.801);
   padding-top: 1.5rem;
+}
+
+.fixed-bottom {
+  margin-left: 5%;
 }
 
 /* Media Queries */
@@ -241,6 +261,16 @@ footer {
   }
   .linkedin {
     margin-left: 10%;
+  }
+  .blog-index {
+    max-width: 400px;
+    margin-left: 8.5%;
+    margin-top: 1rem;
+  }
+  .post-card {
+    width: 450px;
+    position: relative;
+    left: -10%;
   }
 }
 
@@ -281,6 +311,16 @@ footer {
       }
       .linkedin {
         margin-left: 10%;
+      }
+      .blog-index {
+        max-width: 690px;
+        margin-left: 2%;
+        margin-top: 1rem;
+      }
+      .post-card {
+        width: 650px;
+        position: relative;
+        left: -22.5%;
       }
 }
 
@@ -324,6 +364,16 @@ footer {
   }
   .new-row {
     margin-top: 0rem;
+  }
+  .blog-index {
+    max-width: 825px;
+    margin-left: 4%;
+    margin-top: 1rem;
+  }
+  .post-card {
+    width: 850px;
+    position: relative;
+    left: -18%;
   }
 }
 
@@ -382,6 +432,16 @@ footer {
   .book-img {
     margin-top: 1rem;
   }
+  .blog-index {
+    max-width: 900px;
+    margin-left: 6%;
+    margin-top: 1rem;
+  }
+  .post-card {
+    width: 900px;
+    position: relative;
+    left: -14.5%;
+  }
 }
 @media (min-width: 1281px) {
   .carousel {
@@ -438,6 +498,16 @@ footer {
   .book-img {
     margin-top: 1rem;
   }
+  .blog-index {
+    max-width: 1200px;
+    margin-left: 3.5%;
+    margin-top: 1rem;
+  }
+  .post-card {
+    width: 1200px;
+    position: relative;
+    left: -20%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -468,5 +538,15 @@ footer {
       }
       .linkedin {
         margin-left: 5%;
+      }
+      .blog-index {
+        max-width: 1300px;
+        margin-left: 10%;
+        margin-top: 3rem;
+      }
+      .post-card {
+        width: 1300px;
+        position: relative;
+        left: -15%;
       }
 }
