@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#"><img src="/img/angella-logo.jpeg" alt="" class="logo-img"></a> -->
             <a class="navbar-brand" style="color: rgb(194, 0, 0);" href="#">Angella Ricot</a>
@@ -16,7 +16,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="<?php echo site_url(''); ?>">Home</a>
                 <a class="nav-link" href="<?php echo site_url('#about'); ?>">About</a>
                 <a class="nav-link" href="<?php echo site_url('/#books'); ?>">Books</a>
                 <a class="nav-link" href="<?php echo site_url('/#coming'); ?>">Coming Releases</a>

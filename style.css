@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+/* To Hide Admin Bar */
+
+#wpadminbar { display:none; }
+
 /* Navigation */
 
 nav {
@@ -213,6 +217,25 @@ a {
     padding: 100px 0;
 }
 
+/* 404 Page */
+
+.error-page-heading {
+  color: rgba(255, 255, 255, 0.925);
+  margin-top: 5rem;
+}
+
+.error-img {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.return-btn {
+  position: relative;
+  left: 3%;
+  background-color: rgba(255, 255, 255, 0.884);
+  color: black;
+}
+
 /* Footer */
 
 .footer-div {
@@ -272,6 +295,15 @@ a {
     position: relative;
     left: -10%;
   }
+
+  .error-img {
+    max-width: 450px;
+  }
+  
+  .return-btn {
+    position: relative;
+    left: 16%;
+  }
 }
 
 @media (min-width: 721px) {
@@ -310,7 +342,7 @@ a {
         margin-left: 10%;
       }
       .linkedin {
-        margin-left: 10%;
+        margin-left: 0%;
       }
       .blog-index {
         max-width: 690px;
@@ -321,6 +353,17 @@ a {
         width: 650px;
         position: relative;
         left: -22.5%;
+      }
+      .error-img {
+        max-width: 700px;
+        position: relative;
+        right: 12.5%;
+      }
+      
+      .return-btn {
+        position: relative;
+        left: 12.5%;
+        font-size: 2rem;
       }
 }
 
@@ -359,9 +402,6 @@ a {
   .wpcf7-submit {
     margin-left: 50%;
   }
-  .linkedin {
-    margin-left: 25%;
-  }
   .new-row {
     margin-top: 0rem;
   }
@@ -374,6 +414,15 @@ a {
     width: 850px;
     position: relative;
     left: -18%;
+  }
+  .error-img {
+    position: relative;
+    left: 5%;
+  }
+  
+  .return-btn {
+    position: relative;
+    left: 22%;
   }
 }
 
@@ -427,7 +476,7 @@ a {
     margin-left: -10%;
   }
   .linkedin {
-    margin-left: -5%;
+    margin-left: 5%;
   }
   .book-img {
     margin-top: 1rem;
@@ -441,6 +490,15 @@ a {
     width: 900px;
     position: relative;
     left: -14.5%;
+  }
+  .error-img {
+    position: relative;
+    left: 10%;
+  }
+  
+  .return-btn {
+    position: relative;
+    left: 25%;
   }
 }
 @media (min-width: 1281px) {
@@ -508,6 +566,15 @@ a {
     position: relative;
     left: -20%;
   }
+  .error-img {
+    position: relative;
+    left: 15%;
+  }
+  
+  .return-btn {
+    position: relative;
+    left: 30%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -537,7 +604,7 @@ a {
         margin-left: 15%;
       }
       .linkedin {
-        margin-left: 5%;
+        margin-left: 1%;
       }
       .blog-index {
         max-width: 1300px;
@@ -548,5 +615,14 @@ a {
         width: 1300px;
         position: relative;
         left: -15%;
+      }
+      .error-img {
+        position: relative;
+        left: 20%;
+      }
+      
+      .return-btn {
+        position: relative;
+        left: 32%;
       }
 }

@@ -75,7 +75,7 @@
                                   <h4 class="book-title">Sahara</h4>
                                   <p class="book-description">A story of lust, greed, politics that spans through the age of the Clinton’s presidency and al-Qaeda, the plot spins to a volatile climax that sets the stage for the ultimate scandal in the White House.</p>
                                   <div class="btn btn-primary">
-                                    <a href="#">Buy Now On Amazon</a>
+                                    <a href="https://www.amazon.com/Sahara-Angella-Ricot/dp/B08LNMSM8J/ref=sr_1_3?dchild=1&keywords=angella+ricot&qid=1618185157&sr=8-3" target="_blank">Buy Now On Amazon</a>
                                   </div>
                               </div>
                           </div>
@@ -92,7 +92,7 @@
                                   <h4 class="book-title">Who Killed The Poet?</h4>
                                   <p class="book-description">The poet becomes the witness of his own funeral. He is a revenant traveling from another world. The only mortals that seem to embrace him with a peculiar affection are the village clairvoyants. I compel you to engage in the ultimate quest to find the culprits responsible for the poet’s demise.</p>
                                   <div class="btn btn-primary">
-                                    <a href="#">Buy Now On Amazon</a>
+                                    <a href="https://www.amazon.com/Who-Killed-Poet-Angella-Ricot/dp/153688006X/ref=sr_1_4?dchild=1&keywords=angella+ricot&qid=1618185157&sr=8-4" target="_blank">Buy Now On Amazon</a>
                                   </div>
                               </div>
                           </div>
@@ -104,7 +104,7 @@
                                   <h4 class="book-title">Mirror of Souls</h4>
                                   <p class="book-description"> Throughout "Mirror of Souls", the theme is a quest for truth, a quest for freedom: freedom from our daily anguish, freedom from miseries, and from madness. Most importantly, I also offer insight on the role of the poet today and how the poet is viewed within society.</p>
                                   <div class="btn btn-primary">
-                                    <a href="#">Buy Now On Amazon</a>
+                                    <a href="https://www.amazon.com/Mirror-Souls-Angella-Ricot-ebook/dp/B079339N7N/ref=sr_1_5?dchild=1&keywords=angella+ricot&qid=1618185157&sr=8-5" target="_blank">Buy Now On Amazon</a>
                                   </div>
                               </div>
                           </div>
@@ -176,7 +176,9 @@
                         <div class="containter-fluid">
                             <div class="col-lg-8 offset-lg-2">
                             <div class="container-fluid mb-3 icons">
-                             <a href="https://www.instagram.com/angellaricot/" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i>Instagram</a> 
+                             <a href="https://www.instagram.com/angellaricot/" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i>Instagram</a>
+                             <a href="https://www.facebook.com/angella.novels" target="_blank"><i class="fa fa-facebook" id="facebook"></i> Facebook</a>
+                             <a href="https://twitter.com/AngellaRicot" target="_blank"><i class="fa fa-twitter" id="twitter"></i> Twitter</a> 
                             <a href="https://www.linkedin.com/in/author-angella-ricot-a0344592/" target="_blank"><i class="fa fa-linkedin linkedin" id="linkedin"></i> LinkedIn</a>
                             <a href="https://www.amazon.com/Angella-Ricot/e/B00JQ3I87E?ref=sr_ntt_srch_lnk_2&qid=1618106345&sr=8-2" target="_blank"><i class="fab fa-amazon linkedin" id="linkedin"></i> Amazon</a>
                         </div>
