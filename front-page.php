@@ -46,7 +46,7 @@
 </div></a>
 
         <section class="about-section">
-          <a name="about"><h3 class="section-heading">About</h3></a>
+          <a name="about"><h3 class="section-heading">Welcome</h3></a>
           <h4 class="section-subheading">Learn More About Me</h4>
               <div class="row">
                   <div class="col-md-6">
