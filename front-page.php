@@ -53,10 +53,13 @@
                       <img src="<?php echo get_template_directory_uri(); ?>/img/profile.jpeg" alt="Angella Ricot" class="about-img">
                   </div>
                   <div class="col-md-6">
-                      <p class="about-text">I am a native of Haiti who discovered my passion for writing at the University of South Florida. A literary award-winning author, I was featured both in the <i>Miami Times</i> and <i>New York City Caribbean Life</i> newspapers for my achievements. I currently reside in New York City where I play an active role as a women’s rights activist.
-</p>
+                      <p class="about-text">Hello and welcome to my website! I am Angella Ricot, a published author, blogger and Youtuber. Call me a bit weird, but I enjoy psychic palm readings and always read the last page of the newspaper first. My pet name is ‘Tite Sœur (Baby Sis). No need to wonder who gave me this nickname. I was born an introvert who later became an ambivert after enough drills and rehearsals to exhibit extrovert behavior. I am also a philanthropist and a women’s rights activist whose vision is to live in a better world with equal rights for all. Please make yourself comfortable and feel free to browse my blog site, including my latest publication, <i>Sahara</i>.</p>
                   </div>
               </div>
+          </section>
+
+          <section class="quote-section">
+          <h3 class="section-heading"><i>“[Sahara is] Free-flowing and endlessly entertaining… an epic and intriguing story.”</h3><h4 class="section-subheading">- Judge, 23rd Annual Writer’s Digest Self-Published Book Awards</h4></i>
           </section>
 
           <section class="book-section">
