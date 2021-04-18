@@ -2,7 +2,7 @@
 <a name="home"><div class="container mt-3">
   <div class="row">
     <div class="col-12">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -10,21 +10,21 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Sahara-Promo.jpeg" class="d-block w-100 carousel-img" alt="Sahara">
+              <a href="https://www.amazon.com/Sahara-Angella-Ricot/dp/B08LNMSM8J/ref=sr_1_3?dchild=1&keywords=angella+ricot&qid=1618185157&sr=8-3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/Sahara-Promo.jpeg" class="d-block w-100 carousel-img" alt="Sahara">
               <div class="carousel-caption d-none d-md-block"></a>
                 <h5>SAHARA</h5>
                 <p>New Global Edition of Sahara Out Now On Amazon</p>
               </div>
             </div>
             <div class="carousel-item">
-              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/who-killed-the-poet.jpeg" class="d-block w-100 carousel-img" alt="Who Killed The Poet">
+              <a href="https://www.amazon.com/Who-Killed-Poet-Angella-Ricot/dp/153688006X/ref=sr_1_4?dchild=1&keywords=angella+ricot&qid=1618185157&sr=8-4" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/who-killed-the-poet.jpeg" class="d-block w-100 carousel-img" alt="Who Killed The Poet">
               <div class="carousel-caption d-none d-md-block"></a>
                 <h5>WHO KILLED THE POET</h5>
                 <p>Check Out My Latest Poetry Collection, Now On Amazon</p>
               </div>
             </div>
             <div class="carousel-item">
-              <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/YouTube-thumb.png" class="d-block w-100 carousel-img" alt="Angella's Book Hotspot"></a>
+              <a href="https://youtu.be/6czDHeYhiFg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/YouTube-thumb.png" class="d-block w-100 carousel-img" alt="Angella's Book Hotspot"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>ANGELLA'S BOOK HOTSPOT</h5>
                 <p>Check Out My YouTube Channel</p>
@@ -178,12 +178,13 @@
           </div>
                         <div class="containter-fluid">
                             <div class="col-lg-8 offset-lg-2">
-                            <div class="container-fluid mb-3 icons">
+                            <div class="container-fluid mb-3 icons  icon-div">
                              <a href="https://www.instagram.com/angellaricot/" class="font-awesome" id="instagram" target="_blank"><i class="fa fa-instagram instagram"></i>Instagram</a>
                              <a href="https://www.facebook.com/angella.novels" target="_blank"><i class="fa fa-facebook" id="facebook"></i> Facebook</a>
                              <a href="https://twitter.com/AngellaRicot" target="_blank"><i class="fa fa-twitter" id="twitter"></i> Twitter</a> 
                             <a href="https://www.linkedin.com/in/author-angella-ricot-a0344592/" target="_blank"><i class="fa fa-linkedin linkedin" id="linkedin"></i> LinkedIn</a>
-                            <a href="https://www.amazon.com/Angella-Ricot/e/B00JQ3I87E?ref=sr_ntt_srch_lnk_2&qid=1618106345&sr=8-2" target="_blank"><i class="fab fa-amazon linkedin" id="linkedin"></i> Amazon</a>
+                            <a href="https://www.amazon.com/Angella-Ricot/e/B00JQ3I87E?ref=sr_ntt_srch_lnk_2&qid=1618106345&sr=8-2" target="_blank"><i class="fab fa-amazon amazon" id="amazon"></i> Amazon</a>
+                            <a href="https://www.youtube.com/channel/UCjIjolDUdC5I9e7iJooIDFg" target="_blank"><i class="fab fa-youtube youtube" id="youtube"></i> YouTube</a>
                         </div>
                             <div class="row">
                                 <div class="col-md-6">

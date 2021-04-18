@@ -289,7 +289,7 @@ a {
     margin-left: 10%;
   }
   .linkedin {
-    margin-left: 10%;
+    margin-left: 0%;
   }
   .blog-index {
     max-width: 400px;
@@ -309,6 +309,9 @@ a {
   .return-btn {
     position: relative;
     left: 16%;
+  }
+  .icon-div {
+    text-align: center;
   }
 }
 
@@ -580,6 +583,9 @@ a {
   .return-btn {
     position: relative;
     left: 30%;
+  }
+  .icon-div {
+    margin-left: -3rem;
   }
 }
 
